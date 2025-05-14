@@ -2,43 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact – Disa Faios</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Disa Faios</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="container">
+      <h1 class="logo">Disa Faios</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="contact">
+  <main class="container">
+    <section class="hero">
       <h2>Let's work together</h2>
-      <p>Submit your request and I'll be in touch within 24h.</p>
+      <p>Tell me a bit about your product challenge and I'll get back to you within 24 hours.</p>
       <form action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
         <label>
-          Your name:
+          Your name:<br />
           <input type="text" name="name" required>
-        </label>
+        </label><br /><br />
         <label>
-          Email:
+          Email:<br />
           <input type="email" name="_replyto" required>
-        </label>
+        </label><br /><br />
         <label>
-          Message:
-          <textarea name="message" required></textarea>
-        </label>
-        <button type="submit">Send</button>
+          Message:<br />
+          <textarea name="message" rows="6" required></textarea>
+        </label><br /><br />
+        <button type="submit">Send Message</button>
       </form>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Disa Faios. All rights reserved.</p>
+    <div class="container">
+      <p>© 2025 Disa Faios. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
+
