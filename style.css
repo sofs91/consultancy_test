@@ -1,10 +1,10 @@
-/* style.css – Clean neutral theme */
+/* style.css – Updated to remove blue and introduce soft greys */
 
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #222;
+  background-color: #f3f3f3;
+  color: #1a1a1a;
   line-height: 1.6;
 }
 
@@ -16,7 +16,7 @@ body {
 
 header {
   background: #ffffff;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #dcdcdc;
   padding: 1rem 0;
 }
 
@@ -24,6 +24,7 @@ header {
   margin: 0;
   font-size: 1.5rem;
   font-weight: bold;
+  color: #333;
 }
 
 nav {
@@ -33,12 +34,13 @@ nav {
 nav a {
   margin-left: 1rem;
   text-decoration: none;
-  color: #0057ff;
+  color: #555;
   font-weight: 500;
 }
 
 nav a:hover {
   text-decoration: underline;
+  color: #000;
 }
 
 .hero {
@@ -46,7 +48,7 @@ nav a:hover {
   padding: 3rem 2rem;
   text-align: center;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
   margin-bottom: 2rem;
 }
 
@@ -57,27 +59,30 @@ nav a:hover {
 }
 
 .video-section {
+  background: #ffffff;
   text-align: center;
-  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
 button {
-  background: #0057ff;
+  background: #444;
   color: white;
   border: none;
   padding: 0.75rem 1.25rem;
   font-size: 1rem;
   cursor: pointer;
   border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 button:hover {
-  background-color: #0040cc;
+  background-color: #222;
 }
 
 footer {
-  background: #f1f1f1;
+  background: #eaeaea;
   text-align: center;
   padding: 1.5rem 0;
   font-size: 0.9rem;
