@@ -12,6 +12,9 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header {
@@ -27,20 +30,17 @@ header {
   color: #333;
 }
 
-nav {
-  float: right;
-}
-
 nav a {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   text-decoration: none;
   color: #555;
   font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
   text-decoration: underline;
-  color: #000;
+  color: #222;
 }
 
 .hero {
@@ -75,6 +75,7 @@ button {
   cursor: pointer;
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -89,3 +90,4 @@ footer {
   color: #666;
   margin-top: 3rem;
 }
+
